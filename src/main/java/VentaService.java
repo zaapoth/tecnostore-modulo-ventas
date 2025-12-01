@@ -4,9 +4,9 @@ import java.sql.SQLException;
 
 public class VentaService {
 
-    private final String DB_URL = "jdbc:mysql://localhost:3306/";
-    private final String DB_USER = "";
-    private final String DB_PASS = "";
+    private final String DB_URL = "jdbc:mysql://localhost:3306/seguridad_ventas";
+    private final String DB_USER = "root";
+    private final String DB_PASS = "4422";
 
     private final VentaDAO ventaDAO = new VentaDAO();
     private final LogDAO logDAO = new LogDAO();
